@@ -60,5 +60,7 @@
 	"theme_color": "#1e1e1e",
 	"background_color": "#1e1e1e",
 	"display": "minimal-ui",
-	"start_url": "/"
+	"start_url": "/",
+	"categories": [],
+	"orientation": "portrait-primary"
 }
