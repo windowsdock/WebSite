@@ -4,5 +4,7 @@
 	"name": "// TODO: Use the same title as in template.html",
 	"short_name": "// TODO: Title but lowercase",
 	"display": "minimal-ui",
-	"start_url": "/"
+	"start_url": "/",
+	"categories": [],
+	"orientation": "portrait-primary"
 }
