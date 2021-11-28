@@ -22,7 +22,7 @@ const { title = '', description = '' } = Astro.props;
 		<!-- Service Worker -->
 		<script
 			type="module"
-			src="{Astro.resolve('../assets/js/pwaupdate.js')}"
+			src={Astro.resolve('../assets/js/pwaupdate.js')}
 		></script>
 	</head>
 	<body>
@@ -34,7 +34,7 @@ const { title = '', description = '' } = Astro.props;
 		<!-- Initialize Firebase -->
 		<script
 			type="module"
-			src="{Astro.resolve('../assets/js/firebase.js')}"
+			src={Astro.resolve('../assets/js/firebase.js')}
 		></script>
 
 		<!-- Initialize WebFonts -->
@@ -48,7 +48,7 @@ const { title = '', description = '' } = Astro.props;
 		</script>
 		<script
 			async
-			src="{Astro.resolve('../assets/js/webfontloader.js')}"
+			src={Astro.resolve('../assets/js/webfontloader.js')}
 		></script>
 	</body>
 </html>
