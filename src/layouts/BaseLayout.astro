@@ -1,8 +1,4 @@
 ---
-import Meta from './components/Meta.astro';
-import Links from './components/Links.astro';
-import Favicon from './components/Favicon.astro';
-
 //TODO: Place your title and description here
 const { title = '', description = '' } = Astro.props;
 ---
@@ -15,9 +11,30 @@ const { title = '', description = '' } = Astro.props;
 			document.documentElement.classList.add("js");
 		</script>
 
-		<Meta title={title} description={description} />
-		<Links />
-		<Favicon />
+		<!-- Meta -->
+		<title>{title}</title>
+
+		<meta charset="utf-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+		<!-- TODO: Define your color theme in hex here -->
+		<meta name="theme-color" content="" />
+
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="twitter:dnt" content="on" />
+
+		<!-- Links -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet"
+		href={Astro.resolve('./../assets/css/global.css')} />
+		<link
+			rel="manifest"
+			href="/site.webmanifest"
+			crossorigin="use-credentials"
+		/>
+
+		<!-- Favicon -->
 	</head>
 	<body>
 		<!-- TODO: Generate the ID here -->
@@ -27,8 +44,9 @@ const { title = '', description = '' } = Astro.props;
 
 		<!-- Initialize Firebase -->
 		<script
+			defer
 			type="module"
-			src={Astro.resolve('../assets/js/firebase.js')}
+			src={Astro.resolve('./../assets/js/firebase.js')}
 		></script>
 	</body>
 </html>
