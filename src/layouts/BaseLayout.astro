@@ -6,7 +6,7 @@ const { title = '', description = '' } = Astro.props;
 <!DOCTYPE html>
 <html lang="en" class="no-js" dir="ltr">
 	<head>
-		<script type="module">
+		<script>
 			document.documentElement.classList.remove("no-js");
 			document.documentElement.classList.add("js");
 		</script>
@@ -45,7 +45,6 @@ const { title = '', description = '' } = Astro.props;
 		<!-- Initialize Firebase -->
 		<script
 			defer
-			type="module"
 			src={Astro.resolve('./../assets/js/firebase.js')}
 		></script>
 	</body>
