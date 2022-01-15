@@ -4,7 +4,7 @@ export default {
 	dist: "./dist",
 	public: "./public",
 	buildOptions: {
-		// TODO: Place your site URL here
+		// TODO Place your site URL here
 		// site: "",
 		sitemap: true,
 	},
