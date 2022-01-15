@@ -29,10 +29,6 @@ const {
 		<!-- Links -->
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			rel="stylesheet"
-			href={Astro.resolve('./../assets/css/global.css')}
-		/>
-		<link
 			rel="manifest"
 			href="/site.webmanifest"
 			crossorigin="use-credentials"
@@ -118,6 +114,11 @@ const {
 			name="msapplication-TileImage"
 			content="/img/favicon/mstile-144x144.png"
 		/>
+
+		<!-- Style -->
+		<style global>
+			@import "./../assets/css/global.css";
+		</style>
 	</head>
 	<body class="flex flex-grow antialiased">
 		<div id="wok-web" class="flex flex-grow">
