@@ -1,6 +1,6 @@
 ---
 // TODO Place your title and description here
-const { title = '', description = '' } = Astro.props;
+const { title = "", description = "" } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -39,14 +39,13 @@ const { title = '', description = '' } = Astro.props;
 	<body>
 		<!-- TODO Generate the ID here -->
 		<div id="">
-			<slot></slot>
+			<slot />
 		</div>
 
 		<!-- Initialize Firebase -->
 		<script
 			defer
 			type="module"
-			src={Astro.resolve('./../assets/js/firebase.js')}
-		></script>
+			src={Astro.resolve("./../assets/js/firebase.js")}></script>
 	</body>
 </html>
