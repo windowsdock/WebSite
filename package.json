@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"build": "astro build && npm run ucompress && npm run minify-html",
-		"minify-html": "html-minifier -c html-minifier.config.json --input-dir dist/ --output-dir dist/ --file-ext html",
+		"minify-html": "html-minifier -c .html-minifier.json --input-dir dist/ --output-dir dist/ --file-ext html",
 		"start": "astro dev",
 		"ucompress": "ucompress --dest ./dist --source ./dist"
 	},
