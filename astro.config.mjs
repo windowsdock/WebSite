@@ -1,7 +1,5 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-	buildOptions: {
-		site: "https://windowsdock.app",
-	},
+	site: "https://windowsdock.app",
 });
