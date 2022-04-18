@@ -5,5 +5,4 @@ export default defineConfig({
 	// TODO Place your site URL here
 	// site: "",
 	integrations: [turbolinks()],
-	trailingSlash: "always",
 });
