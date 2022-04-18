@@ -1,14 +1,28 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+html {
+	-webkit-tap-highlight-color: transparent;
+}
 
-@layer base {
-	html {
-		-webkit-tap-highlight-color: transparent;
-	}
+html,
+body {
+	height: 100%;
+}
 
-	html,
-	body {
-		height: 100%;
-	}
+body {
+	background-color: #1e1e1e;
+	@apply text-white antialiased dark:bg-white dark:text-neutral-800 sm:subpixel-antialiased;
+}
+
+img {
+	@apply inline-block select-none outline-none;
+}
+
+*,
+*:before,
+*:after {
+	--tw-ring-inset: /*!*/ /*!*/ ;
+}
+
+.turbolinks-progress-bar {
+	height: 1px;
+	@apply bg-white;
 }

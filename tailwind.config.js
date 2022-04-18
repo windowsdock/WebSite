@@ -8,7 +8,17 @@ module.exports = {
 		container: {
 			center: true,
 		},
-		extend: {},
+		extend: {
+			typography: {
+				DEFAULT: {
+					css: {
+						a: {
+							"font-weight": "400",
+						},
+					},
+				},
+			},
+		},
 	},
 	variants: {},
 	plugins: [
