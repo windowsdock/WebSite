@@ -43,9 +43,9 @@ const { title = "", description = "" } = Astro.props;
 	<body>
 		<!-- TODO Generate the ID here -->
 		<div id="">
-			<turbo-frame class="grow" id="slot" data-turbo-action="replace">
+			<div class="grow">
 				<slot />
-			</turbo-frame>
+			</div>
 		</div>
 	</body>
 </html>
