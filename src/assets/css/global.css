@@ -1,14 +1,30 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+html {
+	-webkit-tap-highlight-color: transparent;
+}
 
-@layer base {
-	html {
-		-webkit-tap-highlight-color: transparent;
-	}
+html,
+body {
+	height: 100%;
+}
 
-	html,
-	body {
-		height: 100%;
-	}
+body {
+	@apply antialiased
+		dark:bg-black
+		dark:text-white
+		sm:subpixel-antialiased;
+}
+
+img {
+	@apply inline-block select-none outline-none;
+}
+
+*,
+*:before,
+*:after {
+	--tw-ring-inset: /*!*/ /*!*/ ;
+}
+.turbolinks-progress-bar {
+	height: 5px;
+	/* TODO Define your color theme in hex here */
+	/* @apply bg-transparent; */
 }

@@ -1,5 +1,5 @@
 ---
-import "./../assets/css/global.css";
+import "./../assets/css/base.css";
 
 // TODO Place your title and description here
 const { title = "", description = "" } = Astro.props;
@@ -22,6 +22,7 @@ const { title = "", description = "" } = Astro.props;
 		<meta name="theme-color" content="" />
 		<meta name="format-detection" content="telephone=no" />
 		<meta name="twitter:dnt" content="on" />
+		<meta name="turbo-root" content="/" />
 
 		<!-- Links -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin
@@ -33,12 +34,19 @@ const { title = "", description = "" } = Astro.props;
 			crossorigin="use-credentials"
 		/>
 
+		<style is:global>
+			@import "./../assets/css/global.css";
+		</style>
+
 		<!-- Favicon -->
 	</head>
 	<body>
 		<!-- TODO Generate the ID here -->
 		<div id="">
-			<slot />
+			<turbo-frame class="grow" id="slot" data-turbo-action="replace">
+				<slot />
+			</turbo-frame>
 		</div>
+		<script> Turbolinks.setProgressBarDelay(50); </script>
 	</body>
 </html>
