@@ -9,11 +9,18 @@ body {
 
 body {
 	background-color: #1e1e1e;
-	@apply text-white antialiased dark:bg-white dark:text-neutral-800 sm:subpixel-antialiased;
+
+	@apply text-white
+		antialiased
+		dark:bg-white
+		dark:text-neutral-800
+		sm:subpixel-antialiased;
 }
 
 img {
-	@apply inline-block select-none outline-none;
+	@apply inline-block
+		select-none
+		outline-none;
 }
 
 *,
