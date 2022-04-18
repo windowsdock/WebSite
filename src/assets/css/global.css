@@ -23,6 +23,7 @@ img {
 *:after {
 	--tw-ring-inset: /*!*/ /*!*/ ;
 }
+
 .turbolinks-progress-bar {
 	height: 5px;
 	/* TODO Define your color theme in hex here */
