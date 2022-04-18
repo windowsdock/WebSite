@@ -15,7 +15,9 @@ body {
 }
 
 img {
-	@apply inline-block select-none outline-none;
+	@apply inline-block
+		select-none
+		outline-none;
 }
 
 *,
