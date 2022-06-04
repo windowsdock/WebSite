@@ -29,7 +29,7 @@ img {
 	--tw-ring-inset: /*!*/ /*!*/ ;
 }
 
-.turbolinks-progress-bar {
+.swup-progress-bar {
 	height: 1px;
 	@apply bg-white;
 }
