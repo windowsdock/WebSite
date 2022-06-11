@@ -28,8 +28,3 @@ img {
 *:after {
 	--tw-ring-inset: /*!*/ /*!*/ ;
 }
-
-.swup-progress-bar {
-	height: 1px;
-	@apply bg-white;
-}
