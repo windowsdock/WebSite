@@ -25,9 +25,3 @@ img {
 *:after {
 	--tw-ring-inset: /*!*/ /*!*/ ;
 }
-
-.swup-progress-bar {
-	height: 5px;
-	/* TODO Define your color theme in hex here */
-	/* @apply bg-transparent; */
-}
