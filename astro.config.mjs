@@ -11,9 +11,7 @@ export default defineConfig({
 	},
 	integrations: [
 		sitemap(),
-		critters({
-			"preload": "swap-high",
-		}),
+		critters(),
 		compress(),
 	],
 });
