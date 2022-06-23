@@ -9,9 +9,5 @@ export default defineConfig({
 	experimental: {
 		integrations: true,
 	},
-	integrations: [
-		sitemap(),
-		critters(),
-		compress(),
-	],
+	integrations: [sitemap(), critters(), compress()],
 });
