@@ -1,5 +1,9 @@
-# [blank-web-starter] 📄
+# [windowsdock.app] 📄
 
-Starter template for AstroJS.
+Windowsdock.app main website.
 
-[blank-web-starter]: https://npmjs.org/blank-web-starter
+[windowsdock.app]: https://windowsdock.app
+
+## License
+
+[Hippocratic License](LICENSE)
