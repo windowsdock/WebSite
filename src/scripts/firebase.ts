@@ -1,8 +1,5 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
 	apiKey: "AIzaSyCHqHJ_lLPG3N1vPQOvuLDqQSyu0UlNRHs",
 	appId: "1:869935157727:web:38a6c7f9a49f7f7c30b46a",
@@ -14,5 +11,4 @@ const firebaseConfig = {
 	storageBucket: "windowsdock.appspot.com",
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
