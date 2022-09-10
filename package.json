@@ -10,7 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/windowsdock/windowsdock.app/issues"
 	},
-	"author": "Nikola Hristov <nikola@playform.cloud>",
+	"author": "lightrix",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
