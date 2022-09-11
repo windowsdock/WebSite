@@ -10,7 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/windowsdock/windowsdock.app/issues"
 	},
-	"author": "lightrix",
+	"author": "windowsdock",
 	"license": "MIT",
 	"private": true,
 	"scripts": {
