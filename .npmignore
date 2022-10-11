@@ -1,4 +1,5 @@
 .github/
 .turbo/
+.super/
 src/
 public/
