@@ -10,11 +10,11 @@ body {
 body {
 	background-color: #1e1e1e;
 
-	@apply text-white
+	@apply flex
+		flex-grow
+		text-white
 		antialiased
-		dark:bg-white
-		dark:text-neutral-800
-		sm:subpixel-antialiased;
+		dark:bg-white dark:text-neutral-800 sm:subpixel-antialiased;
 }
 
 img {
