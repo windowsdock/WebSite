@@ -1,7 +1,6 @@
 {
 	"name": "wok-web",
 	"version": "0.0.1",
-	"description": "",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/windowsdock/windowsdock.app.git"
