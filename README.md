@@ -1,5 +1,5 @@
-# [windowsdock.app] 📄
+# [windowsdock.app] 🪟
 
-Windowsdock.app main website.
+WindowsDock.app main website.
 
 [windowsdock.app]: https://windowsdock.app
