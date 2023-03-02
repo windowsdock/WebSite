@@ -11,7 +11,7 @@ import worker from "astrojs-service-worker";
 export default defineConfig({
 	site: "https://windowsdock.app",
 	integrations: [
-		worker(),
+		import.meta.env.MODE === "production" ? worker() : null,
 		sitemap(),
 		critters({ logger: 1 }),
 		prefetch(),
