@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"background_color": "#1e1e1e",
+=======
+	"background_color": "// TODO Set the background color of the app",
+>>>>>>> upstream/main
 	"categories": [],
 	"display": "minimal-ui",
 	"icons": [
@@ -63,4 +67,8 @@
 	"short_name": "// TODO Title but lowercase",
 	"start_url": "/",
 	"theme_color": "// TODO Use the same theme color from template.html"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> upstream/main
