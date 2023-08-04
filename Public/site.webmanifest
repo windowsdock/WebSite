@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"background_color": "#1e1e1e",
 	"categories": [],
 	"display": "minimal-ui",
@@ -58,9 +59,18 @@
 			"type": "image/png"
 		}
 	],
+=======
+	"background_color": "// TODO Set the background color of the app",
+	"categories": [],
+	"display": "minimal-ui",
+>>>>>>> upstream/main
 	"name": "// TODO Use the same title as in template.html",
 	"orientation": "landscape",
 	"short_name": "// TODO Title but lowercase",
 	"start_url": "/",
 	"theme_color": "// TODO Use the same theme color from template.html"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> upstream/main
