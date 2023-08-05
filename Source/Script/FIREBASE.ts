@@ -1,6 +1,6 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp as Initialize } from "firebase/app";
 
-const firebaseConfig = {
+Initialize({
 	apiKey: "AIzaSyCHqHJ_lLPG3N1vPQOvuLDqQSyu0UlNRHs",
 	authDomain: "windowsdock.firebaseapp.com",
 	databaseURL: "https://windowsdock.firebaseio.com",
@@ -9,6 +9,4 @@ const firebaseConfig = {
 	messagingSenderId: "869935157727",
 	appId: "1:869935157727:web:38a6c7f9a49f7f7c30b46a",
 	measurementId: "G-Q7BSEBHZ0Y",
-};
-
-initializeApp(firebaseConfig);
+});
