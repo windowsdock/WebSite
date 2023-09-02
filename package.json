@@ -19,7 +19,7 @@
 	"scripts": {
 		"prepublishOnly": "astro check && astro build",
 		"start": "astro dev"
-	},
+	}, 
 	"devDependencies": {
 		"@astrojs/prefetch": "0.4.0",
 		"@astrojs/sitemap": "3.0.0",
