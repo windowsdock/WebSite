@@ -1,6 +1,4 @@
-import { initializeApp as Initialize } from "firebase/app";
-
-Initialize({
+(await import("firebase/app")).initializeApp({
 	apiKey: "AIzaSyCHqHJ_lLPG3N1vPQOvuLDqQSyu0UlNRHs",
 	authDomain: "windowsdock.firebaseapp.com",
 	databaseURL: "https://windowsdock.firebaseio.com",
