@@ -20,7 +20,6 @@
 		"prepublishOnly": "astro check && astro build",
 		"start": "astro dev"
 	},
-<<<<<<< HEAD
 	"dependencies": {
 		"@astrojs/check": "0.2.1",
 		"@astrojs/prefetch": "0.4.1",
@@ -35,21 +34,6 @@
 		"astro-rome": "2.0.9",
 		"astrojs-service-worker": "1.1.0",
 		"autoprefixer": "10.4.16",
-=======
-	"devDependencies": {
-		"@astrojs/prefetch": "0.4.1",
-		"@astrojs/sitemap": "3.0.2",
-		"@lightrix/configuration": "0.0.1",
-		"@tailwindcss/aspect-ratio": "0.4.2",
-		"@tailwindcss/forms": "0.5.4",
-		"@tailwindcss/typography": "0.5.9",
-		"astro": "2.10.1",
-		"astro-compress": "2.0.15",
-		"astro-critters": "1.1.40",
-		"astro-rome": "0.1.18",
-		"astrojs-service-worker": "1.1.0",
-		"autoprefixer": "10.4.14",
->>>>>>> 2a704c862d829ae5414b4b8b3a3d4c9e8293e271
 		"cssnano": "6.0.1",
 		"cssnano-preset-advanced": "6.0.1",
 		"dotenv": "16.3.1",
