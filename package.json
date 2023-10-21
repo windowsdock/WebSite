@@ -16,7 +16,7 @@
 		"start": "astro dev"
 	},
 	"devDependencies": {
-		"@astrojs/prefetch": "0.3.0",
+		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.0.2",
 		"@lightrix/configuration": "0.0.1",
 		"@tailwindcss/aspect-ratio": "0.4.2",
