@@ -14,9 +14,9 @@ body {
 		flex-grow
 		flex-col
 		antialiased
+		sm:subpixel-antialiased
 		dark:bg-black
-		dark:text-white
-		sm:subpixel-antialiased;
+		dark:text-white;
 }
 
 img {
