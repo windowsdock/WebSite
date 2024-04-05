@@ -2,7 +2,7 @@
 	"name": "@website/windowsdock_app",
 	"version": "0.0.1",
 	"private": true,
-	"homepage": "https://github.com/windowsdock/windowsdock.app#ReadMe",
+	"homepage": "https://github.com/windowsdock/windowsdock.app#readme",
 	"bugs": {
 		"url": "https://github.com/windowsdock/windowsdock.app/issues"
 	},
