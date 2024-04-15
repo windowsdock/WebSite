@@ -2,4 +2,4 @@
 
 WindowsDock.app main website.
 
-[windowsdock.app]: https://windowsdock.app
+[windowsdock.app]: HTTPS://windowsdock.app
