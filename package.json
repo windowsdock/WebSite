@@ -2,13 +2,13 @@
 	"name": "@website/windowsdock_app",
 	"version": "0.0.1",
 	"private": true,
-	"homepage": "HTTPS://GitHub.Com/windowsdock/windowsdock.app#readme",
+	"homepage": "HTTPS://GitHub.Com/windowsdock/Website#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/windowsdock/windowsdock.app/issues"
+		"url": "HTTPS://GitHub.Com/windowsdock/Website/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/windowsdock/windowsdock.app.git"
+		"url": "git+HTTPS://github.com/windowsdock/Website.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {

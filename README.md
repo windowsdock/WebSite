@@ -1,5 +1,3 @@
-# [windowsdock.app] 🪟
+# 🗺️ [Website]
 
-WindowsDock.app main website.
-
-[windowsdock.app]: HTTPS://windowsdock.app
+[Website]: HTTPS://windowsdock.app
