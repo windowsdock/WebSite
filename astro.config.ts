@@ -2,7 +2,7 @@ export default (await import("astro/config")).defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
-	site: "https://windowsdock.app",
+	site: "https://WindowsDock.App",
 	compressHTML: true,
 	prefetch: true,
 	integrations: [
