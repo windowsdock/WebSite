@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"background_color": "#1e1e1e",
 	"categories": [],
 	"display": "minimal-ui",
@@ -58,6 +59,11 @@
 			"type": "image/png"
 		}
 	],
+=======
+	"background_color": "// TODO Set the background color of the app",
+	"categories": [],
+	"display": "minimal-ui",
+>>>>>>> Fork/Current
 	"name": "// TODO Use the same title as in template.html",
 	"orientation": "landscape",
 	"short_name": "// TODO Title but lowercase",
