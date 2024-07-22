@@ -4,29 +4,6 @@ html {
 
 html,
 body {
-<<<<<<< HEAD
-	@apply h-full
-		w-full;
-}
-
-body {
-	background-color: #1e1e1e;
-
-	@apply flex
-		flex-grow
-		flex-col
-		antialiased
-		sm:subpixel-antialiased
-		dark:bg-black
-		dark:text-white;
-}
-
-img {
-	@apply inline-block
-		select-none
-		align-top
-		outline-none;
-=======
 	@apply h-full w-full;
 }
 
@@ -64,5 +41,4 @@ body {
 
 img {
 	@apply inline-block select-none align-top outline-none;
->>>>>>> Fork/Current
 }
