@@ -1,3 +1,3 @@
-# [WebSite] 🗾
+# [WebSite 🗾]
 
-[WebSite]: HTTPS://windowsdock.app
+[WebSite 🗾]: HTTPS://windowsdock.app
