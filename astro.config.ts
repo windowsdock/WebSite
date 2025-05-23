@@ -6,7 +6,7 @@ export default defineConfig({
 	srcDir: "./Source",
 	publicDir: "./Public",
 	outDir: "./Target",
-	site: "HTTPS://WindowsDock.App",
+	site: "https://WindowsDock.App",
 	compressHTML: true,
 	prefetch: {
 		defaultStrategy: "hover",
